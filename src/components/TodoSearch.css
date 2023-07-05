@@ -1,0 +1,25 @@
+input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  &:focus {
+    border-color: #2ecc71;
+  }
+  text-align: center;
+}
+input::placeholder {
+  text-align: center;
+}
+.input-icon i {
+  position: absolute;
+}
+.icon {
+  padding: 1rem;
+  min-width: 2rem;
+  margin-right: 1rem;
+}
