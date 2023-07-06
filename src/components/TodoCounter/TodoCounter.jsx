@@ -3,7 +3,9 @@ import "./TodoCounter.css";
 export const TodoCounter = ({ total, completed }) => {
   return (
     <h1>
-      Has completado {completed} de {total} TODOS
+      {total != completed
+        ? `Has completado ${completed} de ${total} TODOS`
+        : `Felicidades completaste todas las tareas`}
     </h1>
   );
 };
